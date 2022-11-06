@@ -1,6 +1,6 @@
 import os, sys
 
-FILE_NAME = 'log.txt'
+FILE_NAME = '../log.txt'
 
 def create_file(FILE_NAME):
     isFile = os.path.isfile(f'./{FILE_NAME}')
