@@ -1,8 +1,7 @@
 # python_gui_logs
 Create file and add text in the end of file every day.
-I use that in ubuntu with systemd.
-https://medium.com/codex/setup-a-python-script-as-a-service-through-systemctl-systemd-f0cc55a42267
+I use that in ubuntu with crod hour (/etc/cron.hour)
 
-
-systemctl status my_python_log.service
-systemctl start my_python_log.service
+I start scrypt
+#!/bin/bash
+/usr/bin/python3 /media/iu/Games_ssd/Target_and_tasks/python_log_updater/main.py
